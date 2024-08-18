@@ -1,0 +1,94 @@
+/* Basic Reset */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(135deg, #1e1e1e, #0f0f0f);
+    color: #fff;
+}
+
+/* Center the login container */
+.login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url('8443550.jpg') no-repeat center center/cover;
+}
+
+/* Styling for the login card */
+.login-card {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 2rem;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+/* Card heading */
+.login-card h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #00faff; /* Neon Blue */
+}
+
+/* Card description */
+.login-card p {
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+    color: #ddd;
+}
+
+/* Form styling */
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form input {
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 2px solid #00faff; /* Neon Blue */
+    border-radius: 5px;
+    background: #1a1a1a;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.login-form input::placeholder {
+    color: #888;
+}
+
+.login-form button {
+    padding: 0.8rem;
+    border: none;
+    border-radius: 5px;
+    background: #00ff00; /* Neon Green */
+    color: #000;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.login-form button:hover {
+    background: #00cc00; /* Darker Shade of Neon Green */
+    transform: scale(1.05);
+}
+
+/* Sign up link */
+.signup {
+    margin-top: 1rem;
+}
+
+.signup a {
+    color: #00faff; /* Neon Blue */
+    text-decoration: none;
+}
+
+.signup a:hover {
+    text-decoration: underline;
+}
